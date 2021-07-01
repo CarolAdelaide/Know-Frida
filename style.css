@@ -1,0 +1,100 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+/* MENU */
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 9px;
+  padding: 10px 50px 10px 50px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);  
+}
+
+a:hover {
+  color: rgb(241, 187, 106);
+  font-size: 26px;
+  transition: 0.5s;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(252, 252, 252);
+  color: aliceblue;
+}
+
+/* HOME */
+
+.home_foto {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* HISTÓRIA */
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 15px;
+}
+
+#title-story{
+  color: rgba(3, 102, 52, 0.705);
+}
+
+.story {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: rgba(22, 114, 30, 0.062);
+}
+
+.story-foto {
+  margin: 0px 30px;
+  display: flex;
+  width: 400px;
+  height: 590px;
+  margin-left: 40px;
+  border-radius: 25px;
+  box-shadow: rgba(3, 102, 52, 0.384) 6px 6px 6px 6px ;
+}
+
+.story-foto:hover {
+  box-shadow: rgba(3, 102, 52, 0.548) 7px 7px 7px 7px ;
+  transition: 0.5s;
+}
+
+p {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 600px;
+  height:max-content ;
+}
+
+#photos {
+  color: orangered;
+}
+
